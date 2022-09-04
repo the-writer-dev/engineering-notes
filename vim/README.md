@@ -6,8 +6,8 @@ DO not leave the home row! h, j, k, l are your best friend from now on :) <br/>
 `j` - down <br/>
 `k` - up <br/>
 `l` - right <br/>
-`2j` - jump down 2 lines 
-`2k` - jump up 2 lines
+`2j` - jump down 2 lines <br/>
+`2k` - jump up 2 lines <br/>
 
 `w` - jump to the next word <br/>
 `b` - jump back the previous word <br/>
@@ -29,26 +29,27 @@ Deleting lines <br/>
 `ggdG` - delete all without copying into the clipboard dd - delete a line <br/>
 `{number}dd` - delete next number lines <br/>
 
-Substitute chars and lines
-s - substitute a character
-S - substitute a line
+Substitute chars and lines <br/>
+`s` - substitute a character <br/>
+`S` - substitute a line <br/>
 
-Search and deleting lines
-:g/<pattern>/d - delete all lines containing the pattern
+Search and deleting lines <br/>
+`:g/<pattern>/d` - delete all lines containing the pattern <br/>
 
-f - jump to next occurrence of character F - jump to the previous occurrence of character
+`f` - jump to next occurrence of character <br/>
+`F` - jump to the previous occurrence of character <br/>
 
-Search and replace
-:[range]s/{pattern}/{string}/[flags]
+Search and replace <br/>
+:[range]s/{pattern}/{string}/[flags] <br/>
+`s/foo/bar/g` - replace all occurence of foo with bar <br/>
+`s/foo/bar` - replace foo with bar in the current line <br/>
 
-%s/foo/bar/g - replace all occurence of foo with bar s/foo/bar - replace foo with bar in the current line
+Clipboard history <br/>
+`:reg` - find the history "1p - paste what's registered at 1 after the cursor <br/>
 
-Clipboard history
-:reg - find the history "1p - paste what's registered at 1 after the cursor
+### Misc <br/>
+Jump back to previous cursor <br/>
+`ctrl + o` <br/>
 
-Misc
-jump back to previous cursor
-ctrl + o
-
-make lines lowercase or uppercase
-With visual mode, select text and u for lowercase U for uppercase
+Make lines lowercase or uppercase <br/>
+With visual mode, select text and u for lowercase U for uppercase <br/>
