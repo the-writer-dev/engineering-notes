@@ -1,14 +1,14 @@
 This is the collection of (neo)vim tips that I wish I knew when I started
 
-Movement
+### Movement
 DO not leave the home row! h, j, k, l are your best friend from now on :)
-h - left
-j - down
-k - up
-l - right
+`h` - left <br/>
+`j` - down <br/>
+`k` - up <br/>
+`l` - right <br/>
 
-w - jump to the next word
-b - jump back the previous word
+`w` - jump to the next word <br/>
+`b` - jump back the previous word <br/>
 
 2j - jump down 2 lines 2k - jump up 2 lines
 
