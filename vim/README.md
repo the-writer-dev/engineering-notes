@@ -41,7 +41,7 @@ Search and deleting lines <br/>
 
 Search and replace <br/>
 :[range]s/{pattern}/{string}/[flags] <br/>
-`s/foo/bar/g` - replace all occurence of foo with bar <br/>
+`%s/foo/bar/g` - replace all occurence of foo with bar <br/>
 `s/foo/bar` - replace foo with bar in the current line <br/>
 
 Clipboard history <br/>
