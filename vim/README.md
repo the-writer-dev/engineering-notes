@@ -20,6 +20,8 @@ DO not leave the home row! h, j, k, l are your best friend from now on :) <br/>
 `I` - insert at the beginning of the line <br/>
 `A` - insert at the end of the line </br>
 
+`''` - move cursor to its previous position`
+
 ### Modification
 Undo and redo <br/>
 `u` - undo <br/>
@@ -32,6 +34,9 @@ Deleting lines <br/>
 Substitute chars and lines <br/>
 `s` - substitute a character <br/>
 `S` - substitute a line <br/>
+
+Search without case sensitivity
+`/\cctx` - find ctx without case sensitivity!
 
 Search and deleting lines <br/>
 `:g/<pattern>/d` - delete all lines containing the pattern <br/>
