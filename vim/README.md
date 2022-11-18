@@ -55,6 +55,8 @@ Clipboard history <br/>
 ### Misc <br/>
 Jump back to previous cursor <br/>
 `ctrl + o` <br/>
+Jump to next cursor <br />
+`ctrl + o` <br />
 
 Make lines lowercase or uppercase <br/>
 With visual mode, select text and u for lowercase U for uppercase <br/>
