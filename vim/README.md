@@ -58,5 +58,8 @@ Jump back to previous cursor <br/>
 Jump to next cursor <br />
 `ctrl + o` <br />
 
+Write without formatting
+`:noa w`
+
 Make lines lowercase or uppercase <br/>
 With visual mode, select text and u for lowercase U for uppercase <br/>
